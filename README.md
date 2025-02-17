@@ -1,5 +1,3 @@
-# Pleasant Start
+# multicalc
 
-React project template undergirded by Vite and the vanilla react template. Sprinkled with opinions and assets for a quick start.
-
-- uses [Reasonable Colors](https://www.reasonable.work/colors/) for color custom properties
+App that demos `useContext` to avoid props drilling. Made for [Code-the-Dream-School/react-curriculum-v3: WIP Intro to React v3](https://github.com/Code-the-Dream-School/react-curriculum-v3).
