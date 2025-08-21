@@ -10,11 +10,11 @@ function Calculator() {
   }, [operand]);
 
   const cubed = useMemo(() => {
-    return operand ** 2;
+    return operand ** 3;                // Fixed: cubed should be 3 instead of 2
   }, [operand]);
 
   const multiplyByThree = useMemo(() => {
-    operand * 3;
+    return operand * 3;                // Fixed: return statement was missing
   }, [operand]);
 
   const squareRoot = useMemo(() => {
