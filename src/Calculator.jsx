@@ -10,12 +10,12 @@ function Calculator() {
   }, [operand]);
 
   const cubed = useMemo(() => {
-    return operand ** 2;
-  }, [operand]);
+  return operand ** 3;
+}, [operand]);
 
   const multiplyByThree = useMemo(() => {
-    operand * 3;
-  }, [operand]);
+  return operand * 3;
+}, [operand]);
 
   const squareRoot = useMemo(() => {
     return Math.sqrt(operand);
