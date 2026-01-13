@@ -10,8 +10,8 @@ function Calculator() {
   }, [operand]);
 
   const cubed = useMemo(() => {
-    return operand ** 2;
-  }, [operand]);
+  return operand ** 3;
+}, [operand]);
 
   const multiplyByThree = useMemo(() => {
   return operand * 3;
