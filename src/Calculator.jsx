@@ -13,9 +13,10 @@ function Calculator() {
     return operand ** 3;
   }, [operand]);
 
-  const multiplyByThree = useMemo(() => {
-    operand * 3;
-  }, [operand]);
+const
+multiplyByThree = useMemo (() => {
+return operand * 3;
+}, [operand]) ;
 
   const squareRoot = useMemo(() => {
     return Math.sqrt(operand);
