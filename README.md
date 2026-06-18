@@ -61,5 +61,5 @@ _Make sure your assignments are complete and follow the current React curriculum
 1. Run through the tests - they should fail because you haven't debugged the source files yet. (**IMPORTANT: Don’t make any changes to the test files!**)
 1. Investigate the _source files_ and iteratively make changes such that more and more test cases start to pass. 
 1. Once all your tests pass, publish your working branch to GitHub.
-1. Open a PR against your fork of this repository.
+1. Open a PR from your fork to the upstream `Code-the-Dream-School/multicalc` repository.
 1. Submit your PR link following the instructions in the React curriculum.
